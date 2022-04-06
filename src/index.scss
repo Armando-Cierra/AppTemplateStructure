@@ -1,0 +1,19 @@
+@import '@2600hz/sds-core/sds-tools';
+
+body {
+  background: sds-color(grey, 90);
+  width: 100%;
+  height: 100vh;
+}
+
+.Container {
+  position: absolute;
+  top: 56px;
+  width: 100%;
+  height: calc(100% - 112px);
+  background: var(--sds_theme_background_high, #{sds-color(white)});
+}
+
+.Example{
+  color: red;
+}
